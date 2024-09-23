@@ -1,10 +1,10 @@
-package dev.zilvis.webchatbackend;
+package dev.zilvis.baseAppWithSecurity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebChatBackEndApplicationTests {
+class RunAppTests {
 
     @Test
     void contextLoads() {

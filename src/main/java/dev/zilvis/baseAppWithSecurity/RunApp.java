@@ -1,13 +1,13 @@
-package dev.zilvis.webchatbackend;
+package dev.zilvis.baseAppWithSecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebChatBackEndApplication {
+public class RunApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebChatBackEndApplication.class, args);
+        SpringApplication.run(RunApp.class, args);
     }
 
 }
